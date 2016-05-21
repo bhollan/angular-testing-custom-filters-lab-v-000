@@ -1,9 +1,9 @@
 function removeAllVowels() {
-	return function (str) {
-		return str.replace(/[aeiou]/gi, '');
-	};
+  return function (str) {
+    return str.replace(/[aeiou]/gi, '');
+  };
 }
 
 angular
-	.module('app')
-	.filter('removeAllVowels', removeAllVowels);
+.module('app')
+.filter('removeAllVowels', removeAllVowels);
